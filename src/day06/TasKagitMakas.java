@@ -24,7 +24,7 @@ public class TasKagitMakas {
             userChoice = scanner.nextInt();
 
             // Bilgisayar icin random deger uretecegiz
-            compChoice = rnd.nextInt(3) + 1; // 0-3 arasi bir deger uretecegi icin +1 dedik
+            compChoice = rnd.nextInt(3)+1; // 0-3 arasi bir deger uretecegi icin +1 dedik
 
             if (userChoice == 1 && compChoice == 2) {
                 System.out.println("Bilgisayarin sectigi : "+compChoice);
