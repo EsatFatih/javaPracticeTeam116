@@ -6,7 +6,7 @@ public class Continue {
             if (i == 3){
                 continue;
             }
-            System.out.println(i+"");
+            System.out.print(i+""); // 1 2 4 5    continue kullandıgımız icin 3'u almadı
         }
         System.err.println("Islem  tamam");
     }
